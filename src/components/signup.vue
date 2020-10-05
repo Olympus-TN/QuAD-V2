@@ -1,4 +1,15 @@
 <template>
+  <!-- ===========================================  Welcoming text  =========================================== -->
+
+  <div>
+    <p id ="welcome">
+      Welcome to the sQuAD ! <br/><br/> 
+      Our objectiv is to connect the dots between developpers and companies striving for awesome people like YOU !<br/>
+      What are you waiting for? <br/>
+      Create you account right now and let the world see your amazing skills.
+    </p>
+  </div>
+
   <!-- ===========================================  Freelancer signup  =========================================== -->
 
   <div class="container">
@@ -12,7 +23,7 @@
           <button
             id="userSignup"
             type="button"
-            class="btn btn-outline-success"
+            class="btn btn-outline-primary"
             @click="signupuser"
           >
             Freelancer
@@ -20,12 +31,12 @@
           <button
             id="companySignup"
             type="button"
-            class="btn btn-outline-success"
+            class="btn btn-outline-primary"
             @click="signupcompany"
           >
             Company
           </button>
-        <label id="userMsg" for="label-name">Sign up as a Freelancer</label>
+          <label id="userMsg" for="label-name">Sign up as a Freelancer</label>
         </div>
 
         <label for="label-name">Your name</label>
@@ -80,14 +91,14 @@
           </label>
         </div>
 
-        <button class="btn btn-lg btn-success btn-block" type="submit">
+        <button class="btn btn-lg btn-primary btn-block" type="submit">
           Sign Up
         </button>
       </form>
     </div>
 
     <!-- ===========================================  company signup  =========================================== -->
-    
+
     <div v-if="comapnysignup">
       <form class="comapnysignup">
         <div class="text-center mb-4">
@@ -98,7 +109,7 @@
           <button
             id="userSignup"
             type="button"
-            class="btn btn-outline-success"
+            class="btn btn-primary"
             @click="signupuser"
           >
             Freelancer
@@ -106,13 +117,12 @@
           <button
             id="companySignup"
             type="button"
-            class="btn btn-outline-success"
+            class="btn btn-primary"
             @click="signupcompany"
           >
             Company
           </button>
-        <label id ="companyMsg" for="label-name">Sign up as a Company</label>
-
+          <label id="companyMsg" for="label-name">Sign up as a Company</label>
         </div>
 
         <label for="label-name">Company name</label>
@@ -167,7 +177,7 @@
           </label>
         </div>
 
-        <button class="btn btn-lg btn-success btn-block" type="submit">
+        <button class="btn btn-lg btn-primary btn-block" type="submit">
           Sign Up
         </button>
       </form>
@@ -199,13 +209,19 @@ export default {
 </script>
 
 <style scoped>
-
-.container{
-  border:1px solid ;
+.container {
+  /* border:1px solid ; */
+  padding:30px;
+  /* padding-top: 30px; */
+  padding-left: 30px;
+  padding-right: 40px;
+  /* padding-bottom: 30px; */
   border-radius: 5%;
   position: relative;
-  top:50px;
-  left: 22%;
+  top: 28px;
+  left: 27%;
+  background-color: white;
+
 }
 
 #userSignup {
@@ -217,14 +233,23 @@ export default {
 }
 
 .container {
-  width: 380px;
+  width: 450px;
 }
 
-#companyMsg{
-  font-size:30px;
+#companyMsg {
+  font-size: 30px;
 }
 
-#userMsg{
-  font-size:30px;
+#userMsg {
+  font-size: 30px;
+}
+
+#welcome{
+  position: absolute;
+  color:#F8F9F9 ;
+  font-size: 31px;
+  width:50%;
+  top: 30%;
+  left: 6%;
 }
 </style>
