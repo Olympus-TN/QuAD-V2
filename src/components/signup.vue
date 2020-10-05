@@ -1,7 +1,80 @@
 <template>
-<!-- ////signUp Company/// -->
-<div >
-    <!-- <div id="companyS">
+
+<!-- freelancer signup -->
+
+  <div class="container">
+    <form class="form-signup">
+      <div class="text-center mb-4">
+        <h1 class="h3 mb-3 font-weight-normal">You don't </h1>
+      </div>
+
+        <label for="label-name">Your name</label>
+      <div class="form-label-group">
+        <input
+          type="text"
+          class="form-control"
+          id="name"
+          placeholder="Enter your name"
+          required
+          autofocus
+        />
+
+      </div>
+
+        <label for="label-email">Your Email</label>
+      <div class="form-label-group">
+        <input
+          type="email"
+          id="email"
+          class="form-control"
+          placeholder="Your Email"
+          required
+          autofocus
+        />
+
+      </div>
+
+        <label for="label-password">Password</label>
+      <div class="form-label-group">
+        <input
+          type="password"
+          id="label-password"
+          class="form-control"
+          placeholder="Password"
+          required
+        />
+
+      </div>
+
+        <label for="label-password">Confirm password</label>
+      <div class="form-label-group">
+        <input
+          type="password"
+          id="label-password"
+          class="form-control"
+          placeholder="Confirme password"
+          required
+        />
+
+      </div>
+
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me" /> Remember me
+        </label>
+      </div>
+
+      <button class="btn btn-lg btn-success btn-block" type="submit">
+        Sign Up
+      </button>
+    </form>
+  </div>
+
+<!-- company signup -->
+
+  <!-- ////signUp Company/// -->
+  <!-- <div > -->
+  <!-- <div id="companyS">
     <Form>
         <div>
           <Input
@@ -32,8 +105,8 @@
         </div>
       </Form>
       </div> -->
-<!-- ////signUp Freelancer/// -->
-<!-- <div id="FreelancerS">
+  <!-- ////signUp Freelancer/// -->
+  <!-- <div id="FreelancerS">
     <Form>
           <Input
             type="text"
@@ -69,19 +142,16 @@
             Submit
           </Button>
       </Form> -->
-      <!-- </div> -->
-</div>
+  <!-- </div> -->
+  <!-- </div> -->
 </template>
 <script>
 export default {
-    name:"signup"
-}
+  name: "signup",
+};
 </script>
 <style scoped>
-
-
-
-
-
-
+.container{
+  width:27%;
+  }
 </style>
