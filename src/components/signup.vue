@@ -1,18 +1,20 @@
 <template>
   <!-- ===========================================  Welcoming text  =========================================== -->
 
-  <div>
+  <div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-6" >
     <p id ="welcome">
       Welcome to the sQuAD ! <br/><br/> 
       Our objectiv is to connect the dots between developpers and companies striving for awesome people like YOU !<br/>
       What are you waiting for? <br/>
       Create you account right now and let the world see your amazing skills.
     </p>
-  </div>
+</div>
+
 
   <!-- ===========================================  Freelancer signup  =========================================== -->
-
-  <div class="container">
+<div class="col-sm-12 col-md-6 col-lg-6" >
+  <div class="container" >
     <div div v-if="userSignup">
       <form class="form-signup">
         <div class="text-center mb-4">
@@ -183,6 +185,8 @@
       </form>
     </div>
   </div>
+  </div>
+  </div>
 </template>
 
 <script>
@@ -207,19 +211,11 @@ export default {
   },
 };
 </script>
-
 <style scoped>
 .container {
-  /* border:1px solid ; */
   padding:30px;
-  /* padding-top: 30px; */
-  padding-left: 30px;
-  padding-right: 40px;
-  /* padding-bottom: 30px; */
+  padding-top: 30px;
   border-radius: 5%;
-  position: relative;
-  top: 28px;
-  left: 27%;
   background-color: white;
 
 }
@@ -245,11 +241,13 @@ export default {
 }
 
 #welcome{
-  position: absolute;
+  padding-top: 100px;
+  padding-left:32px;
   color:#F8F9F9 ;
   font-size: 31px;
-  width:50%;
-  top: 30%;
-  left: 6%;
+}
+.row{
+  padding-top: 70px;
 }
 </style>
+
