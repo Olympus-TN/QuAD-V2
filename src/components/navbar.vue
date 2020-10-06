@@ -1,4 +1,5 @@
 <template>
+
 <nav id="navbar" class="navbar navbar-expand-lg navbar-light" :class="navbar">
   <a id="logo" class="navbar-brand" href="#">Quad</a>
   <button class="navbar-toggler" type="button" data-toggle="Collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,5 +44,4 @@ export default {
     font-size: 34px;
 
 }
-
 </style>
