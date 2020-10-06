@@ -8,6 +8,7 @@
       What are you waiting for? <br/>
       Create you account right now and let the world see your amazing skills.
     </p>
+  </div>
 
 
   <!-- ===========================================  Freelancer signup  =========================================== -->
@@ -208,7 +209,6 @@ export default {
   },
 };
 </script>
-
 <style scoped>
 .container {
   /* border:1px solid ; */
@@ -222,22 +222,29 @@ export default {
   top: 28px;
   left: 27%;
   background-color: white;
+
 }
+
 #userSignup {
   margin: 10px;
 }
+
 #companySignup {
   margin: 10px;
 }
+
 .container {
   width: 450px;
 }
+
 #companyMsg {
   font-size: 30px;
 }
+
 #userMsg {
   font-size: 30px;
 }
+
 #welcome{
   position: absolute;
   color:#F8F9F9 ;
@@ -247,3 +254,4 @@ export default {
   left: 6%;
 }
 </style>
+
