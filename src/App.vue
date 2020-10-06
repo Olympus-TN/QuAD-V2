@@ -1,5 +1,6 @@
 <template>
   <div class="appDiv">
+
     <navbar />
     <signup />
     <!-- <profile /> -->
@@ -7,6 +8,7 @@
 </template>
 
 <script>
+
 import signup from "./components/signup.vue";
 import navbar from "./components/navbar.vue";
 // import profile from './components/Freelancer/profile.vue'
@@ -28,7 +30,7 @@ export default {
   background-size: cover;
   height: 805px;
   font-family: "Varela Round", sans-serif;
-}
 
+}
 </style>
 
