@@ -10,6 +10,7 @@
     </p>
   </div>
 
+
   <!-- ===========================================  Freelancer signup  =========================================== -->
 
   <div class="container">
@@ -183,6 +184,7 @@
       </form>
     </div>
   </div>
+</div>
 </template>
 
 <script>
@@ -207,7 +209,6 @@ export default {
   },
 };
 </script>
-
 <style scoped>
 .container {
   /* border:1px solid ; */
@@ -253,3 +254,4 @@ export default {
   left: 6%;
 }
 </style>
+

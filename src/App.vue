@@ -29,4 +29,6 @@ export default {
   height: 805px;
   font-family: "Varela Round", sans-serif;
 }
+
 </style>
+
