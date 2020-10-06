@@ -2,18 +2,21 @@
   <div class="appDiv">
     <navbar />
     <signup />
+    <!-- <profile /> -->
   </div>
 </template>
 
 <script>
 import signup from "./components/signup.vue";
 import navbar from "./components/navbar.vue";
+// import profile from './components/Freelancer/profile.vue'
 
 export default {
   name: "App",
   components: {
     signup,
     navbar,
+    // profile
   },
 };
 </script>
