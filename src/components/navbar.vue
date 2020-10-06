@@ -18,11 +18,9 @@
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-        <div class="collapse multi-collapse" id="tog" >
       <input class="form-control mr-sm-2" type="email" placeholder="Email">
       <input class="form-control mr-sm-2" type="password" placeholder="Password">
-      </div>
-      <button  id ="btn" class="btn btn-primary"  type="submit" data-toggle="collapse" data-target="#btn, #tog" >Log in</button>
+      <button  id ="btn" class="btn btn-primary"  type="submit" data-toggle="collapse" >Log in</button>
     </form>
   </div>
 </nav>
@@ -41,7 +39,6 @@ export default {
 #logo{
     color: white;
     font-size: 34px;
-
 }
 
 </style>

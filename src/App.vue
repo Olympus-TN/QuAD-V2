@@ -21,9 +21,9 @@ export default {
 <style scoped>
 .appDiv {
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://cdn.mos.cms.futurecdn.net/kVHndERw4LxuWxArZouVU6.jpg");
-;
   background-size: cover;
-  height: 805px;
+  /* height: 805px; */
+  height: 100vh;
   font-family: "Varela Round", sans-serif;
 }
 </style>
