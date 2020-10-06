@@ -10,8 +10,10 @@
       Create you account right now and let the world see your amazing skills.
     </p>
 </div>
+
+
   <!-- ===========================================  Freelancer signup  =========================================== -->
-<div class="col-sm-12 col-md-6 col-lg-6"  >
+<div class="col-sm-12 col-md-6 col-lg-6" >
   <div class="container" >
     <div div v-if="userSignup">
       <form class="form-signup">
@@ -209,19 +211,11 @@ export default {
   },
 };
 </script>
-
 <style scoped>
 .container {
-  /* border:1px solid ; */
   padding:30px;
   padding-top: 30px;
-  /* padding-left: 30px; */
-  /* padding-right: 40px; */
-  /* padding-bottom: 30px; */
   border-radius: 5%;
-  /* position: relative; */
-  /* top: 28px; */
-  /* left: 27%; */
   background-color: white;
 
 }
@@ -249,14 +243,11 @@ export default {
 #welcome{
   padding-top: 100px;
   padding-left:32px;
-  /* position: absolute; */
   color:#F8F9F9 ;
   font-size: 31px;
-  /* width:50%; */
-  /* top: 30%; */
-  /* left: 6%; */
 }
 .row{
   padding-top: 70px;
 }
 </style>
+

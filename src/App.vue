@@ -1,19 +1,24 @@
 <template>
   <div class="appDiv">
+
     <navbar />
     <signup />
+    <!-- <profile /> -->
   </div>
 </template>
 
 <script>
+
 import signup from "./components/signup.vue";
 import navbar from "./components/navbar.vue";
+// import profile from './components/Freelancer/profile.vue'
 
 export default {
   name: "App",
   components: {
     signup,
     navbar,
+    // profile
   },
 };
 </script>
@@ -25,5 +30,7 @@ export default {
   /* height: 805px; */
   height: 100vh;
   font-family: "Varela Round", sans-serif;
+
 }
 </style>
+
